@@ -16,6 +16,7 @@ struct ContentView: View {
             Text("اختار الإيموجي اللي يعبر عنك اليوم")
                 .multilineTextAlignment(.center)
             
+            
                 .font(.largeTitle)
             
             Text(tap)
@@ -35,7 +36,7 @@ struct ContentView: View {
                             .background(Color.yellow)
                             .clipShape(Circle())
                             .onTapGesture{
-                             
+                             // change in "(a)state" array or etc.. to change something in background
                             tap = emoji
                                 
                             }
